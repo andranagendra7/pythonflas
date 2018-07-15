@@ -1,0 +1,81 @@
+    1  yum update -y
+    2  python
+    3  pip --version
+    4  cat /etc/redhat-release
+    5  uname -n
+    6  uname -a
+    7  yum install python-pip
+    8  yum install pip
+    9  yum install python-pip
+   10  yum install python3 -y
+   11  subscription-manager repos --enable rhel-server-rhscl-7-rpms
+   12  yum install python27-python-pip -y
+   13  which pip
+   14  pip -v
+   15  yum update -y
+   16  yum update
+   17  yum install wget -y
+   18  wget https://pypi.python.org/packages/source/s/setuptools/setuptools-7.0.tar.gz --no-check-certificate
+   19  ls
+   20  cd /root/
+   21  ls
+   22  mkdir python 
+   23  mv setuptools-7.0.tar.gz python/.
+   24  cd python/
+   25  ls
+   26  tar -xvf setuptools-7.0.tar.gz 
+   27  ls
+   28  cd setuptools-7.0
+   29  ls
+   30  python setup.py install
+   31  yum install pip 
+   32  cd ..
+   33  wget https://bootstrap.pypa.io/get-pip.py
+   34  ls
+   35  chmod +x get-pip.py 
+   36  ls
+   37  python get-pip.py 
+   38  pip --version
+   39  free
+   40  free -m
+   41  free -g
+   42  cd /usr/lib/python2.7/
+   43  ls
+   44  cd site-packages/
+   45  ls
+   46  pip install virtualenv -y
+   47  pip install virtualenv
+   48  virtualenv flask
+   49  yum install httpd -y
+   50  systemctl status httpd
+   51  systemctl start httpd
+   52  systemctl status httpd
+   53  vi /var/www/html/index.html
+   54  systemctl restart httpd
+   55  yum install -y curl
+   56  curl localhost
+   57  pip list
+   58  pip freeze
+   59  pip freeze  | tee requirements
+   60  ls
+   61  cat requirements 
+   62  mv requirements /root/python/.
+   63  pwd
+   64  date
+   65  cal
+   66  cd /root/python/
+   67  ls
+   68  pip show pyodbc
+   69  pip show flak
+   70  pip show flask
+   71  ls
+   72  yum install -y git-all
+   73  yum install -y git
+   74  git --version
+   75  which git
+   76  git init
+   77  git status
+   78* cat -
+   79  cat >> historyfile
+   80  cat historyfile 
+   81  history | tee historyfile 
